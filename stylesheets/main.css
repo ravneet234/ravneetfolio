@@ -1,0 +1,74 @@
+.over-x{
+  overflow-x:hidden !important;
+}
+.over-y{
+  overflow-y:hidden !important;
+}
+a{
+  text-emphasis: none;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-emphasis: none;
+  text-decoration: none;
+  color: white;
+}
+
+html,body{
+  height: 100%;
+}
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+}
+.bg-native{
+  background-color: #7295FF;
+}
+
+.home-img{
+  width: 100%;
+}
+
+/* About page */
+#rav-head-slider {
+  margin-top: 0px;
+  width: 100%;
+  }
+#slide-1 {
+  background-image: url(../images/about.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  }
+
+.rav-img{
+  height: 300px;
+  border-radius: 50%;
+}
+
+  .header-font{
+    font-family: 'Spirax', cursive;
+  }
+
+.lin-native{
+  background: rgb(239,239,239);
+  background: linear-gradient(135deg, rgba(239,239,239,1) 0%, rgba(114,149,255,1) 100%);
+  background-size: cover;
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .room-image{
+    min-height: 280px;
+  }
+  @media (min-width: 1280px) {
+    .room-image{
+      min-height: 245px;
+    }
+
+
